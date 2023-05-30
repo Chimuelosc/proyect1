@@ -1,0 +1,1668 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header, section, footer {
+    width: 1000px;
+    margin-left: auto; 
+    margin-right: auto;
+}
+
+#imagen_heider { 
+    background-image: url(imagenes/fondo_header1.jpg);
+    width: 100%;
+    height: 200px;                                                                    
+}
+
+header {
+    height: 60px; 
+    background:-webkit-linear-gradient(top, blanchedalmond, rgb(105, 104, 103));
+    position: sticky;
+    top: 5px;
+    z-index: 1000;
+}
+
+#marca {
+    width: 300px;
+    height: 60px;
+    float: left;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+h1 {
+    margin-top: 10px;
+    margin-left: 120px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+#botonera {
+    width: 655px;
+    height: 60px;
+    float: right;
+}
+
+#botonera ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    font-family: 'Raleway', sans-serif;
+}
+
+#botonera ul a {
+    width: 100%;
+    display: block;
+    color: rgb(196, 124, 124);
+    font-weight: bold;
+    text-decoration: none;
+    padding: 20px;
+    font-family: 'Raleway', sans-serif;
+}
+
+#botonera ul a:hover {
+    color: rgb(20, 19, 19);
+}
+
+#caja1 {
+    height: 4200px;
+    padding-top: 60px;
+    background-color: rgb(105, 104, 103);
+}
+
+.caja11 {
+    width: 350px;
+    height: 50px;
+    background-color: rgb(177, 177, 206);
+    border-radius: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.caja12 {
+    width: 300px;
+    height: 370px;
+    background-color: rgb(168, 162, 159);
+    float: left;
+    margin: 10px;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+#imagen_caja12 { 
+    background-image: url(imagenes/fondo_caja12.jpg);
+    width: 70%;
+    height: 200px; 
+    margin-left: 45px;                                                                   
+}
+
+#bot_caj1 ul {
+    margin: 10px;
+    padding: 10px;
+    list-style-type: none;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    font-family: 'Raleway', sans-serif;
+}
+
+#bot_caj1 ul a {
+    width: 100%;
+    display: block;
+    color: rgb(196, 124, 124);
+    font-weight: bold;
+    text-decoration: none;
+    padding: 20px;
+    background-color: blanchedalmond;
+    box-sizing: border-box;
+    font-family: 'Raleway', sans-serif;
+}
+
+.caja_hori12 {
+    width: 940px;
+    height: 80px;
+    background-color: honeydew;
+    clear: left;
+    margin: 10px;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+.caja13 {
+    width: 300px;
+    height: 270px;
+    background-color: rgb(168, 162, 159);
+    float: left;
+    margin: 10px;
+    padding: 15px;
+    box-sizing: border-box;
+    margin-left: 12%;
+    font-family: 'Itim', cursive;
+}
+
+.caja_hori13 {
+    width: 920px;
+    height: 200px;
+    background-color: rgb(193, 214, 223);
+    float: left;
+    margin: 10px;
+    padding: 15px;
+    border-radius: 10px;
+    margin-left: 2%;
+    font-family: 'Itim', cursive;
+}
+
+#musculosas {
+    width: 940px;
+    height: 120px;
+    padding-top: 60px;
+    background-color: rgb(105, 104, 103);
+    float: left;
+    margin-left: 10px;
+    margin-right: auto;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.caja00 {
+    width: 940px;
+    height: 50px;
+    background-color: blanchedalmond;
+    float: left;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    text-align: center
+}
+
+.caja_mus {
+    width: 220px;
+    height: 375px;
+    background-color: rgb(168, 162, 159);
+    float: left;
+    margin: 10px;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+#imagen_caja12 { 
+    background-image: url(imagenes/fondo_caja12.jpg);
+    width: 200px;
+    height: 200px; 
+    margin-left: 2px;                                                                   
+}
+
+#pantalones {
+    width: 940px;
+    height: 120px;
+    padding-top: 60px;
+    background-color: rgb(105, 104, 103);
+    float: left;
+    margin-left: 10px;
+    margin-right: auto;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.caja_pan {
+    width: 220px;
+    height: 375px;
+    background-color: rgb(168, 162, 159);
+    float: left;
+    margin: 10px;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+#imagen_caja12 { 
+    background-image: url(imagenes/fondo_caja12.jpg);
+    width: 200px;
+    height: 200px; 
+    margin-left: 2px;                                                                   
+}
+
+#vestidos {
+    width: 940px;
+    height: 120px;
+    padding-top: 60px;
+    background-color: rgb(105, 104, 103);
+    float: left;
+    margin-left: 10px;
+    margin-right: auto;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.caja_ves {
+    width: 220px;
+    height: 375px;
+    background-color: rgb(168, 162, 159);
+    float: left;
+    margin: 10px;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+#imagen_caja12 { 
+    background-image: url(imagenes/fondo_caja12.jpg);
+    width: 200px;
+    height: 200px; 
+    margin-left: 2px;                                                                   
+}
+
+#faldas {
+    width: 940px;
+    height: 120px;
+    padding-top: 60px;
+    background-color: rgb(105, 104, 103);
+    float: left;
+    margin-left: 10px;
+    margin-right: auto;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.caja_fal {
+    width: 220px;
+    height: 375px;
+    background-color: rgb(168, 162, 159);
+    float: left;
+    margin: 10px;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+#imagen_caja12 { 
+    background-image: url(imagenes/fondo_caja12.jpg);
+    width: 200px;
+    height: 200px; 
+    margin-left: 2px;                                                                   
+}
+
+#camisones {
+    width: 940px;
+    height: 120px;
+    padding-top: 60px;
+    background-color: rgb(105, 104, 103);
+    float: left;
+    margin-left: 10px;
+    margin-right: auto;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.caja_cam {
+    width: 220px;
+    height: 375px;
+    background-color: rgb(168, 162, 159);
+    float: left;
+    margin: 10px;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+#imagen_caja12 { 
+    background-image: url(imagenes/fondo_caja12.jpg);
+    width: 200px;
+    height: 200px; 
+    margin-left: 2px;                                                                   
+}
+
+#caja2 {
+    height: 4240px;
+    padding-top: 60px;
+    background-color: rgb(105, 104, 103);
+}
+
+.caja21 {
+    width: 300px;
+    height: 355px;
+    background-color: rgb(193, 214, 223);
+    float: left;
+    margin: 10px;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+#imagen_caja21 { 
+    background-image: url(imagenes/fondo_caja21.jpg);
+    width: 70%;
+    height: 200px;
+    margin-left: 45px;                                                                    
+}
+
+#imagen_caja21a { 
+    background-image: url(imagenes/fondo_caja21a.jpg);
+    width: 70%;
+    height: 330px;
+    margin-left: 45px;                                                                    
+}
+
+.caja_horiz21 {
+    width: 300px;
+    height: 355px;
+    background-color: #74b7d1;
+    float: right;
+    margin: 10px;
+}
+
+#bot_caj2 ul {
+    margin: 10px;
+    padding: 10px;
+    list-style-type: none;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    font-family: 'Raleway', sans-serif;
+}
+
+#bot_caj2 ul a {
+    width: 100%;
+    display: block;
+    color: rgb(136, 140, 189);
+    font-weight: bold;
+    text-decoration: none;
+    padding: 20px;
+    background-color: rgb(181, 241, 231);
+    box-sizing: border-box;
+    font-family: 'Raleway', sans-serif;
+}
+
+.caja_horiz22 {
+    width: 300px;
+    height: 350px;
+    background-color: #74b7d1;
+    float: left;
+    margin: 10px;
+}
+
+p {
+    margin-top: 10px;
+    margin-left: 10px;
+    font-family: 'Itim', cursive;
+}
+
+.caja22 {
+    width: 300px;
+    height: 350px;
+    background-color: rgb(193, 214, 223);
+    float: right;
+    margin: 10px;
+}
+
+#imagen_caja21b { 
+    background-image: url(imagenes/fondo_caja21b.jpg);
+    width: 70%;
+    height: 330px;
+    margin-left: 45px;                                                                    
+}
+
+#imagen_caja21c { 
+    background-image: url(imagenes/fondo_caja21c.jpg);
+    width: 70%;
+    height: 330px;
+    margin-left: 45px;                                                                    
+}
+
+.caja23 {
+    width: 300px;
+    height: 350px;
+    background-color: rgb(193, 214, 223);
+    float: left;
+    margin: 10px;
+}
+
+#imagen_caja21d { 
+    background-image: url(imagenes/fondo_caja21d.jpg);
+    width: 70%;
+    height: 330px;
+    margin-left: 45px;                                                                    
+}
+
+#imagen_caja21e { 
+    background-image: url(imagenes/fondo_caja21e.jpg);
+    width: 70%;
+    height: 330px;
+    margin-left: 45px;                                                                    
+}
+
+#remeras {
+    width: 940px;
+    height: 120px;
+    padding-top: 60px;
+    background-color: rgb(105, 104, 103);
+    float: left;
+    margin-left: 10px;
+    margin-right: auto;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.caja00 {
+    width: 940px;
+    height: 50px;
+    background-color: blanchedalmond;
+    float: left;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    text-align: center
+}
+
+.caja_rem {
+    width: 220px;
+    height: 375px;
+    background-color: rgb(168, 162, 159);
+    float: left;
+    margin: 10px;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+#imagen_caja_rem { 
+    background-image: url(imagenes/fondo_caja12.jpg);
+    width: 200px;
+    height: 200px; 
+    margin-left: 2px;                                                                 
+}
+
+#pantalones_1 {
+    width: 940px;
+    height: 120px;
+    padding-top: 60px;
+    background-color: rgb(105, 104, 103);
+    float: left;
+    margin-left: 10px;
+    margin-right: auto;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+
+.caja_pant {
+    width: 220px;
+    height: 375px;
+    background-color: rgb(168, 162, 159);
+    float: left;
+    margin: 10px;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+#imagen_caja_pant { 
+    background-image: url(imagenes/fondo_caja12.jpg);
+    width: 200px;
+    height: 200px; 
+    margin-left: 2px;                                                                    
+}
+
+#bermudas {
+    width: 940px;
+    height: 120px;
+    padding-top: 60px;
+    background-color: rgb(105, 104, 103);
+    float: left;
+    margin-left: 10px;
+    margin-right: auto;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.caja_ber {
+    width: 220px;
+    height: 375px;
+    background-color: rgb(168, 162, 159);
+    float: left;
+    margin: 10px;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+#imagen_caja_ber { 
+    background-image: url(imagenes/fondo_caja12.jpg);
+    width: 200px;
+    height: 200px; 
+    margin-left: 2px;                                                                    
+}
+
+#camperas {
+    width: 940px;
+    height: 120px;
+    padding-top: 60px;
+    background-color: rgb(105, 104, 103);
+    float: left;
+    margin-left: 10px;
+    margin-right: auto;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.caja_camp {
+    width: 220px;
+    height: 375px;
+    background-color: rgb(168, 162, 159);
+    float: left;
+    margin: 10px;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+#imagen_caja_camp { 
+    background-image: url(imagenes/fondo_caja12.jpg);
+    width: 200px;
+    height: 200px; 
+    margin-left: 2px;                                                                    
+}
+
+#camisas {
+    width: 940px;
+    height: 120px;
+    padding-top: 60px;
+    background-color: rgb(105, 104, 103);
+    float: left;
+    margin-left: 10px;
+    margin-right: auto;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.caja_cami {
+    width: 220px;
+    height: 375px;
+    background-color: rgb(168, 162, 159);
+    float: left;
+    margin: 10px;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+#imagen_caja_cami { 
+    background-image: url(imagenes/fondo_caja12.jpg);
+    width: 200px;
+    height: 200px; 
+    margin-left: 2px;                                                                    
+}
+
+#caja8 {
+    height: 1400px;
+    padding-top: 60px;
+    background-color: rgb(105, 104, 103);
+}
+
+#caja9 {
+    height: 1600px;
+    padding-top: 60px;
+    background-color: rgb(105, 104, 103);
+}
+
+#desv {
+    height: 450px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+.cardi {
+    margin: 50px;
+    width: 500px;
+    height: 350px;
+    border-radius: 5px;
+    background: var(--i);
+    background-size: cover;
+    box-shadow: 3px 5px 5px rgba(3, 32, 51, .8);
+    overflow: hidden;
+}
+
+.content {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: rgba(0,0,0,.4);
+    opacity: 0;
+    transition: .5s;
+}
+
+.content h2, a{
+    color: rgba(3, 32, 51, .8);
+    margin: 10px 0;
+}
+
+.cardi:hover .content {
+    opacity: 1;
+}
+
+#fond{
+    height: 450px;
+    background-image: 
+    linear-gradient(#3300319a, #0d043db3), url(imagenes/comprando.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+#fond h2{
+    padding-top: 100px;
+    margin-left: 40px;
+    text-align: center;
+}
+
+#fond h1{
+    padding-top: 100px;
+    margin-left: 40px;
+    text-align: center;
+}
+
+#fondim{
+    height: 450px;
+    background-image: 
+    linear-gradient(#3300319a, #0d043db3), url(imagenes/fondim.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+#fondim h2{
+    padding-top: 100px;
+    margin-left: 40px;
+    text-align: center;
+}
+
+#fondim h1{
+    padding-top: 100px;
+    margin-left: 40px;
+    text-align: center;
+}
+
+/*USO DE GRID*/
+.contenedor{
+    width: 100%;
+    max-width: 1000px;
+    background: rgb(105, 104, 103);
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(8, auto);
+}
+
+.contenedor > div,
+.contenedor .header,
+.contenedor .contenido {
+    background: rgb(105, 104, 103);
+    padding: 20px;
+    border-radius: 4px;
+}
+
+.contenedor .header {
+    background: rgb(105, 104, 103);
+    color: #fff;
+    height: 60px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    grid-column-start: 1;
+    grid-column-end: -1;
+}
+
+.contenedor .contenido {
+    grid-column: span 4;
+}
+
+.contenedor .caj1,
+.contenedor .caj2,
+.contenedor .caj3,
+.contenedor .caj4 {
+    background: rgb(168, 162, 159);
+    color: #fff;
+    grid-column: span 1;
+}
+
+@media screen and (min-width: 600px) and (max-width: 1023px) {
+    .contenedor{
+        width: 580px;
+        grid-template-columns: repeat(2, auto);
+    }
+    
+    .contenedor .contenido{
+        grid-column: 1/-1;   
+    }
+    .contenedor .header {
+        grid-column: 1/4;
+    }
+    .contenedor .caj1 {
+        grid-column: 1/3;
+    }
+    .contenedor .caj2 {
+        grid-column: 3/4;
+    }
+    .contenedor .caj3 {
+        grid-column: 1/3;
+    }
+    .contenedor .caj4 {
+        grid-column: 3/4;
+    }
+}
+
+@media all and (max-width: 599px){
+    .contenedor .contenido{
+        grid-column: 1/-1;   
+    }
+    .contenedor .caj1,
+    .contenedor .caj2,
+    .contenedor .caj3,
+    .contenedor .caj4 {
+    grid-column: 1/-1;
+}
+}
+/*FIN DEL USO DE GRID*/
+
+#formulario {
+    width: 500px;
+    float: left;
+    margin: 20px;
+    background-color: rgb(105, 102, 107);
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+footer {
+    height: 200px;
+    background-color:rgb(105, 104, 103);
+}
+
+.caja51 {
+    width: 250px;
+    height: 70px;
+    background-color: rgb(37, 210, 216);
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    border-radius: 40px;
+}
+.caja52 {
+    width: 300px;
+    height: 40px;
+    background-color: rgb(12, 44, 80);
+    float: left;
+    margin: 10px;
+}
+
+.caja_prod {
+    width: 90%;
+    height: 280px;
+    margin: 10px;
+    border-radius: 10px;
+    background-color: aqua;
+    padding: 10%;
+    box-sizing: border-box;
+}
+
+#mkt {
+    background-color: rgb(179, 105, 175);
+}
+
+#prog {
+    background-color: rgb(143, 99, 184);
+}
+
+@media all and (min-width: 600px) and (max-width: 1023px) {
+    
+    header, section, footer {
+        width: 580px;
+    }
+    
+    #imagen_heider { 
+        height: 150px;                                                                    
+    }
+    header {
+        height: 100px;
+        padding-top: 10px;
+        box-sizing: border-box;
+    }
+    
+    #marca {
+        width: 560px;
+        height: 45px;
+        float: none;
+    }
+    
+    h1 {
+        margin: 0;
+        text-align: center;
+    }
+    
+    #botonera {
+        width: 585px;
+        height: 50px;
+        float: none; 
+    }
+    
+    #caja1 {
+        height: 6150px;
+        padding-top: 100px;
+    }
+    
+    .caja11 {
+        width: 270px;
+    }
+    
+    h2 {
+        text-align: center;
+    }
+
+    .caja12 {
+        width: 270px;
+        height: 380px;
+    }
+    
+    .caja12_responsive {
+        width: 570px;
+        height: 250px;
+    }
+
+    .caja_hori12 {
+        width: 550px;
+        height: 130px;
+        text-align: center;
+    }
+    
+    .caja13 {
+        width: 265px;
+        height: 270px;
+        margin: 5px;
+        margin-left: 2.6%;
+    }
+    
+    .caja_hori13 {
+        width: 560px;
+        height: 220px;
+        margin: 10px;
+        border-radius: 10px;
+    }
+    
+    #musculosas {
+        width: 560px;
+        height: 120px;
+        padding-top: 100px;
+    }
+    
+    .caja00 {
+        width: 560px;
+        height: 50px;
+    }
+   
+    .caja_mus {
+        width: 227px;
+        height: 350px;
+        margin-left: 37px;
+        margin-top: 40px;
+    }
+    
+    #imagen_caja12 { 
+        width: 200px;
+        height: 200px; 
+        margin-left: 2px;                                                                   
+    }
+    
+    #pantalones {
+        width: 560px;
+        height: 120px;
+        padding-top: 100px;
+    }
+    
+    .caja_pan {
+        width: 227px;
+        height: 350px;
+        margin-left: 37px;
+        margin-top: 40px;
+    }
+    
+    #imagen_caja12 { 
+        width: 200px;
+        height: 200px; 
+        margin-left: 2px;                                                                   
+    }
+    
+    #vestidos {
+        width: 560px;
+        height: 120px;
+        padding-top: 100px;
+    }
+    
+    .caja_ves {
+        width: 227px;
+        height: 350px;
+        margin-left: 37px;
+        margin-top: 40px;
+    }
+    
+    #imagen_caja12 { 
+        width: 200px;
+        height: 200px; 
+        margin-left: 2px;                                                                   
+    }
+    
+    #faldas {
+        width: 560px;
+        height: 120px;
+        padding-top: 100px;
+    }
+    
+    .caja_fal {
+        width: 227px;
+        height: 350px;
+        margin-left: 37px;
+        margin-top: 40px;
+    }
+    
+    #imagen_caja12 { 
+        width: 200px;
+        height: 200px; 
+        margin-left: 2px;                                                                   
+    }
+    
+    #camisones {
+        width: 560px;
+        height: 120px;
+        padding-top: 100px;
+    }
+    
+    .caja_cam {
+        width: 227px;
+        height: 350px;
+        margin-left: 37px;
+        margin-top: 40px;
+    }
+    
+    #imagen_caja12 { 
+        width: 200px;
+        height: 200px; 
+        margin-left: 2px;                                                                   
+    }
+    
+    #caja2 {
+        height: 6400px;
+        padding-top: 100px;
+    }
+    
+    .caja21 {
+        width: 180px;
+        height: 350px;
+    }
+    
+    #imagen_caja21 { 
+        width: 100%;
+        height: 200px;
+        margin-left: 0px;                                                                    
+    }
+    
+    #imagen_caja21a { 
+        width: 100%;
+        height: 330px;
+        margin-left: 0px;                                                                    
+    }
+
+    .caja_horiz21 {
+        width: 160px;
+        height: 350px;
+    }
+
+    .caja_horiz211_responsive {
+        width: 94%;
+        height: 350px;
+        float: left;
+        margin: 4%;
+    }
+
+    #bot_caj2 ul a {
+        padding: 20px;
+    }
+
+    .caja22 {
+        width: 180px;
+        height: 330px;
+    }
+    
+    .caja_horiz22 {
+        width: 160px;
+        height: 330px;
+    }
+
+    #imagen_caja21b { 
+        width: 100%;
+        height: 330px;
+        margin-left: 0px;                                                                    
+    }
+    
+    #imagen_caja21c { 
+        width: 100%;
+        height: 330px;
+        margin-left: 0px;                                                                    
+    }
+    
+    .caja23 {
+        width: 180px;
+        height: 300px;
+        margin-left: 65px;
+    }
+    
+    #imagen_caja21d { 
+        width: 100%;
+        height: 330px;
+        margin-left: 0px;                                                                    
+    }
+    
+    #imagen_caja21e { 
+        width: 100%;
+        height: 330px;
+        margin-left: 0px;                                                                    
+    }
+    
+    #remeras {
+        width: 560px;
+        height: 120px;
+        padding-top: 100px;
+    }
+    
+    .caja00 {
+        width: 560px;
+        height: 50px;
+    }
+    
+    .caja_rem {
+        width: 227px;
+        height: 350px;
+        margin-left: 37px;
+        margin-top: 40px;
+    }
+    
+    #imagen_caja_rem { 
+        width: 200px;
+        height: 200px; 
+        margin-left: 2px;                                                                 
+    }
+    
+    #pantalones_1 {
+        width: 560px;
+        height: 120px;
+        padding-top: 100px;
+    }
+    
+    .caja_pant {
+        width: 227px;
+        height: 350px;
+        margin-left: 37px;
+        margin-top: 40px;
+    }
+    
+    #imagen_caja_pant { 
+        width: 200px;
+        height: 200px; 
+        margin-left: 2px;                                                                    
+    }
+    
+    #bermudas {
+        width: 560px;
+        height: 120px;
+        padding-top: 100px;
+    }
+    
+    .caja_ber {
+        width: 227px;
+        height: 350px;
+        margin-left: 37px;
+        margin-top: 40px;
+    }
+    
+    #imagen_caja_ber { 
+        width: 200px;
+        height: 200px; 
+        margin-left: 2px;                                                                    
+    }
+    
+    #camperas {
+        width: 560px;
+        height: 120px;
+        padding-top: 100px;
+    }
+    
+    .caja_camp {
+        width: 227px;
+        height: 350px;
+        margin-left: 37px;
+        margin-top: 40px;
+    }
+    
+    #imagen_caja_camp { 
+        width: 200px;
+        height: 200px; 
+        margin-left: 2px;                                                                    
+    }
+    
+    #camisas {
+        width: 560px;
+        height: 120px;
+        padding-top: 100px;
+    }
+    
+    .caja_cami {
+        width: 227px;
+        height: 350px;
+        margin-left: 37px;
+        margin-top: 40px;
+    }
+    
+    #imagen_caja_cami { 
+        width: 200px;
+        height: 200px; 
+        margin-left: 2px;                                                                    
+    }
+
+    footer {
+        height: 250px;
+        padding-top: 10px;
+        box-sizing: border-box;
+    }
+    
+    .caja51 {
+        width: 250px;
+        height: 70px;
+    }
+
+    .caja52 {
+        width: 265px;
+        height: 40px;
+        margin-left: 2.3%;
+    }
+
+    .caja52_responsive { 
+        width: 265px;
+        height: 40px;
+        margin-left: 30%;
+    }
+
+    .caja_prod {
+        width: 95%;
+        height: 250px;
+        margin: 10px;
+        border-radius: 10px;
+        background-color: aqua;
+        padding: 10%;
+        box-sizing: border-box;
+    }
+}
+
+@media all and (max-width: 599px) {
+    header, section, footer {
+        width: 100%;
+    }
+    
+    #imagen_heider { 
+        display: none;
+    }
+    header {
+        height: auto;
+        position: relative;
+    }
+    
+    #marca {
+        width: 83%;
+        height: 100%;
+        float: none;
+        padding: 10px;
+        box-sizing: border-box;
+    }
+    
+    h1 {
+        margin-top: 10px;
+        text-align: center;
+    }
+    
+    #botonera {
+        width: 100%;
+        height: auto;
+        float: none;
+    }
+    
+    #botonera ul {
+        display: block;
+    }
+    
+    #botonera ul a {
+        text-align: center;
+    }
+
+    #caja1 {
+        height: 7670px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    
+    .caja11 {
+        width: 95%;
+        text-align: center
+    }
+    
+    .caja12 {
+        width: 94%;
+        height: 220px;
+        float: left;
+        margin: 3%;
+    }
+
+    .caja12_responsive {
+        width: 94%;
+        height: 280px;
+        float: left;
+        margin: 3%;
+    }
+
+    #imagen_caja12 { 
+        float: left;
+        margin-right: 20px;
+        margin-bottom: 20px;                                                                  
+    }
+
+    .caja121_responsive {
+        width: 94%;
+        height: 120px;
+        float: left;
+        margin: 3%;
+    }
+
+    #bot_caj1 ul {
+        margin: 5px;
+        padding: 20px;
+        display: flex;
+    }
+
+    #bot_caj1 ul a {
+        color: rgb(49, 40, 40);
+        padding: 5px;
+        background-color: rgb(168, 162, 159);
+        box-sizing: border-box;
+    }
+    
+    .caja_hori12 {
+        width: 95%;
+        height: 140px;
+        padding: 4%;
+        text-align: center;
+    }
+    
+    .caja13 {
+        width: 94%;
+        height: 250px;
+        float: left;
+        margin: 3%;
+        padding: 15px;
+        box-sizing: border-box;
+    }
+    
+    .caja_hori13 {
+        width: 95%;
+        height: 220px;
+        text-align: center;
+    }
+    
+    #musculosas {
+        width: 100%;
+        height: 120px;
+        padding-top: 60px;
+        margin-left: 0px; 
+    }
+    
+    .caja00 {
+        width: 100%;
+        height: 50px;
+    }
+    
+    .caja_mus {
+        width: 94%;
+        height: 220px;
+        float: left;
+        margin: 3%;
+    }
+    
+    #imagen_caja12 { 
+        width: 200px;
+        height: 200px; 
+        margin-left: 2px;                                                                   
+    }
+    
+    #pantalones {
+        width: 100%;
+        height: 120px;
+        padding-top: 60px;
+        margin-left: 0px; 
+    }
+    
+    
+    .caja_pan {
+        width: 94%;
+        height: 220px;
+        float: left;
+        margin: 3%;
+    }
+    
+    #imagen_caja12 { 
+        width: 200px;
+        height: 200px; 
+        margin-left: 2px;                                                                   
+    }
+    
+    #vestidos {
+        width: 100%;
+        height: 120px;
+        padding-top: 60px;
+        margin-left: 0px; 
+    }
+    
+    .caja_ves {
+        width: 94%;
+        height: 220px;
+        float: left;
+        margin: 3%;
+    }
+    
+    #imagen_caja12 { 
+        width: 200px;
+        height: 200px; 
+        margin-left: 2px;                                                                   
+    }
+    
+    #faldas {
+        width: 100%;
+        height: 120px;
+        padding-top: 60px;
+        margin-left: 0px; 
+    }
+    
+    .caja_fal {
+        width: 94%;
+        height: 220px;
+        float: left;
+        margin: 3%;
+    }
+    
+    #imagen_caja12 { 
+        width: 200px;
+        height: 200px; 
+        margin-left: 2px;                                                                   
+    }
+    
+    #camisones {
+        width: 100%;
+        height: 120px;
+        padding-top: 60px;
+        margin-left: 0px; 
+    }
+    
+    .caja_cam {
+        width: 94%;
+        height: 220px;
+        float: left;
+        margin: 3%;
+    }
+    
+    #imagen_caja12 { 
+        width: 200px;
+        height: 200px; 
+        margin-left: 2px;                                                                   
+    }
+
+    #caja2 {
+        height: 7720px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    
+    .caja21 {
+        width: 44%;
+        height: 350px;
+        float: left;
+    }
+    
+    #imagen_caja21 { 
+        width: 94%;
+        height: 200px; 
+        margin-left: 3%; 
+                                                                           
+    }
+    
+    #imagen_caja21a { 
+        width: 94%;
+        height: 330px; 
+        margin-left: 3%;                                                                    
+    }
+
+    .caja_horiz21 {
+        width: 94%;
+        height: 100px;
+        margin: 3%;
+    }
+    
+    .caja_horiz211_responsive {
+        width: 94%;
+        height: 400px;
+        float: left;
+        margin: 3%;
+    }
+
+    #bot_caj2 ul {
+        margin: 5px;
+        padding: 20px;
+        display: flex;
+    }
+
+    #bot_caj2 ul a {
+        color: rgb(49, 40, 40);
+        padding: 5px;
+        background-color: rgb(168, 162, 159);
+        box-sizing: border-box;
+    }
+
+    .caja_horiz22 {
+        width: 94%;
+        height: 100px;
+        margin: 3%;
+    }
+    
+    .caja22 {
+        width: 44%;
+        height: 330px;
+        float: left;
+    }
+    
+    #imagen_caja21b { 
+        width: 94%;
+        height: 330px; 
+        margin-left: 3%;                                                                     
+    }
+    
+    #imagen_caja21c { 
+        width: 94%;
+        height: 330px; 
+        margin-left: 3%;                                                                     
+    }
+
+    .caja23 {
+        width: 44%;
+        height: 330px;
+        float: left;
+    }
+    
+    #imagen_caja21d { 
+        width: 94%;
+        height: 330px; 
+        margin-left: 3%;                                                                    
+    }
+    
+    #imagen_caja21e { 
+        width: 94%;
+        height: 330px; 
+        margin-left: 3%;                                                                    
+    }
+
+    #remeras {
+        width: 100%;
+        height: 120px;
+        padding-top: 60px;
+        margin-left: 0px; 
+    }
+    
+    .caja00 {
+        width: 100%;
+        height: 50px;
+    }
+    
+    .caja_rem {
+        width: 94%;
+        height: 220px;
+        float: left;
+        margin: 3%;
+    }
+    
+    #imagen_caja_rem { 
+        width: 200px;
+        height: 200px; 
+        margin-left: 2px;                                                                 
+    }
+    
+    #pantalones_1 {
+        width: 100%;
+        height: 120px;
+        padding-top: 60px;
+        margin-left: 0px; 
+    }
+    
+    
+    .caja_pant {
+        width: 94%;
+        height: 220px;
+        float: left;
+        margin: 3%;
+    }
+    
+    #imagen_caja_pant { 
+        width: 200px;
+        height: 200px; 
+        margin-left: 2px;                                                                     
+    }
+    
+    #bermudas {
+        width: 100%;
+        height: 120px;
+        padding-top: 60px;
+        margin-left: 0px; 
+    }
+    
+    .caja_ber {
+        width: 94%;
+        height: 220px;
+        float: left;
+        margin: 3%;
+    }
+    
+    #imagen_caja_ber { 
+        width: 200px;
+        height: 200px; 
+        margin-left: 2px;                                                                    
+    }
+    
+    #camperas {
+        width: 100%;
+        height: 120px;
+        padding-top: 60px;
+        margin-left: 0px; 
+    }
+    
+    .caja_camp {
+        width: 94%;
+        height: 220px;
+        float: left;
+        margin: 3%;
+    }
+    
+    #imagen_caja_camp { 
+        width: 200px;
+        height: 200px; 
+        margin-left: 2px;                                                                    
+    }
+    
+    #camisas {
+        width: 100%;
+        height: 120px;
+        padding-top: 60px;
+        margin-left: 0px; 
+    }
+    
+    .caja_cami {
+        width: 94%;
+        height: 220px;
+        float: left;
+        margin: 3%;
+    }
+    
+    #imagen_caja_cami { 
+        width: 200px;
+        height: 200px; 
+        margin-left: 2px;                                                                    
+    }
+    /* USO DE GRID */
+    #caja3 {
+        height: 4200px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    
+
+    /*FIN USO DE GRID*/
+
+    footer {
+        height: 200px;
+        padding-top: 5px;
+        box-sizing: border-box;
+    }
+    
+    .caja51 {
+        width: 250px;
+        height: 40px;
+    }
+
+    .caja52 {
+        width: 210px;
+        height: 40px;
+        margin-left: 2.5%;
+    }
+
+    .caja52_responsive {
+        width: 210px;
+        height: 40px;
+        margin-left: 30%;
+    }
+
+    .caja_prod {
+        width: 94%;
+        height: 300px;
+        float: left;
+        margin: 3%;
+    }
+
+} /* fin media -599px */
